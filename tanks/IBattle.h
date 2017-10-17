@@ -2,8 +2,9 @@
 #define _IBATTLE_H_
 
 #include "BattleException.h"
+#include "DLLImport.H"
 
-class IBattle
+class SANDBOXLIB_API IBattle
 {
 public:
 	virtual void process() throw(BattleException) = 0;

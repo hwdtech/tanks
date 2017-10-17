@@ -13,29 +13,20 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Заголовочные файлы\SingleBattle">
-      <UniqueIdentifier>{a63c543d-0918-48cf-b951-67f8d513eae2}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IBattle.h">
-      <Filter>Заголовочные файлы\SingleBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="HandledException.h">
+    <ClInclude Include="stdafx.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="ExceptionHandler.h">
-      <Filter>Заголовочные файлы\SingleBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="BattleException.h">
-      <Filter>Заголовочные файлы\SingleBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="DLLImport.h">
+    <ClInclude Include="targetver.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HandledException.cpp">
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="HandledExceptionTests.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
