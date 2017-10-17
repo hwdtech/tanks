@@ -29,5 +29,8 @@
     <ClCompile Include="HandledExceptionTests.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+    <ClCompile Include="CommandBasedBattleTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

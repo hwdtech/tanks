@@ -16,6 +16,9 @@
     <Filter Include="Заголовочные файлы\SingleBattle">
       <UniqueIdentifier>{a63c543d-0918-48cf-b951-67f8d513eae2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Заголовочные файлы\CommandBasedBattle">
+      <UniqueIdentifier>{782c565a-a9ea-4904-be92-e3afd2626706}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IBattle.h">
@@ -33,9 +36,27 @@
     <ClInclude Include="DLLImport.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="BattleCommand.h">
+      <Filter>Заголовочные файлы\CommandBasedBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCommandException.h">
+      <Filter>Заголовочные файлы\CommandBasedBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCommandInvokerException.h">
+      <Filter>Заголовочные файлы\CommandBasedBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandBasedBattle.h">
+      <Filter>Заголовочные файлы\CommandBasedBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="IBattleCommandInvoker.h">
+      <Filter>Заголовочные файлы\CommandBasedBattle</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HandledException.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandBasedBattle.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
