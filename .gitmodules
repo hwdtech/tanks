@@ -1,0 +1,3 @@
+[submodule "third-party/cxxmock"]
+	path = third-party/cxxmock
+	url = https://github.com/comm644/cxxmock.git
