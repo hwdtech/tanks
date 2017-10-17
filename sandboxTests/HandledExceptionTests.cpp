@@ -19,7 +19,6 @@ namespace sandboxTests
 			ex.handle([&wasCalled]() { wasCalled = true; });
 
 			Assert::IsTrue(wasCalled);
-
 		}
 
 	};
